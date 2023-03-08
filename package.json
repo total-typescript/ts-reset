@@ -62,6 +62,11 @@
       "types": "./dist/utils.d.ts",
       "import": "./dist/utils.mjs",
       "default": "./dist/utils.js"
+    },
+    "./require-unknown": {
+      "types": "./dist/require.d.ts",
+      "import": "./dist/require.mjs",
+      "default": "./dist/require.js"
     }
   },
   "keywords": [],
