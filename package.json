@@ -58,6 +58,11 @@
       "import": "./dist/set-has.mjs",
       "default": "./dist/set-has.js"
     },
+    "./map-constructor": {
+      "types": "./dist/map-constructor.d.ts",
+      "import": "./dist/map-constructor.mjs",
+      "default": "./dist/map-constructor.js"
+    },
     "./utils": {
       "types": "./dist/utils.d.ts",
       "import": "./dist/utils.mjs",
