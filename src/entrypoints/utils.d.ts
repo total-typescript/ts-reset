@@ -14,4 +14,6 @@ declare namespace TSReset {
     : T extends symbol
     ? symbol
     : T;
+
+  type Cast<A, B> = A extends B ? A : B;
 }

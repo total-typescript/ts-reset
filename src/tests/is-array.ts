@@ -23,3 +23,17 @@ doNotExecute(() => {
 
   type tests = [Expect<Equal<typeof paths, string[]>>];
 });
+
+doNotExecute(() => {
+  type Unarray<T> = T extends Array<infer U> ? U : T;
+
+  function test<T>(value: T) {
+    const inner = <X extends Unarray<T>>(v: X[]) => {
+      //
+    };
+
+    if (Array.isArray(value)) {
+      inner(value);
+    }
+  }
+});

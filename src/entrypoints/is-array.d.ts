@@ -1,3 +1,3 @@
 interface ArrayConstructor {
-  isArray(arg: any): arg is unknown[];
+  isArray<T>(arg: T): arg is unknown extends T ? unknown[] : any[];
 }
