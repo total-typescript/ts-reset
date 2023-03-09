@@ -72,6 +72,11 @@
       "types": "./dist/array-index-of.d.ts",
       "import": "./dist/array-index-of.mjs",
       "default": "./dist/array-index-of.js"
+    },
+    "./string-split": {
+      "types": "./dist/string-split.d.ts",
+      "import": "./dist/string-split.mjs",
+      "default": "./dist/string-split.js"
     }
   },
   "keywords": [],
