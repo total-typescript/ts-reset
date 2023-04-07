@@ -72,6 +72,11 @@
       "types": "./dist/array-index-of.d.ts",
       "import": "./dist/array-index-of.mjs",
       "default": "./dist/array-index-of.js"
+    },
+    "./string-trim": {
+      "types": "./dist/string-trim.d.ts",
+      "import": "./dist/string-trim.mjs",
+      "default": "./dist/string-trim.js"
     }
   },
   "keywords": [],
