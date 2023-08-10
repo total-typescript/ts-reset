@@ -6,3 +6,4 @@
 /// <reference path="set-has.d.ts" />
 /// <reference path="map-has.d.ts" />
 /// <reference path="array-index-of.d.ts" />
+/// <reference path="string-starts-with.d.ts" />

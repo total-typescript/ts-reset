@@ -72,6 +72,11 @@
       "types": "./dist/array-index-of.d.ts",
       "import": "./dist/array-index-of.mjs",
       "default": "./dist/array-index-of.js"
+    },
+    "./string-starts-with": {
+      "types": "./dist/string-starts-with.d.ts",
+      "import": "./dist/string-starts-with.mjs",
+      "default": "./dist/string-starts-with.js"
     }
   },
   "keywords": [],
