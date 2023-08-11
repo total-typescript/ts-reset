@@ -62,6 +62,23 @@ import "@total-typescript/ts-reset";
 
 3. Enjoy improved typings across your _entire_ project.
 
+## Get Started (Monorepo)
+
+1. Install: `npm i -D @total-typescript/ts-reset` to your root package.json
+
+2. Create a `reset.d.ts` file in the root of your project:
+
+```ts
+import "@total-typescript/ts-reset";
+```
+
+3. In your individual packages `tsconfig.json`, add the relative path from your package to the `reset.d.ts` file
+```json
+"include": [
+    "../../reset.d.ts",
+  ]
+```
+
 ### Installing only certain rules
 
 By importing from `@total-typescript/ts-reset`, you're bundling _all_ the recommended rules.
