@@ -1,4 +1,4 @@
-/// <reference path="utils.d.ts" />
+/// <reference path="../utils.d.ts" />
 
 interface ReadonlyArray<T> {
   lastIndexOf(

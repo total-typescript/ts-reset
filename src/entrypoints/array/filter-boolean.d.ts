@@ -1,4 +1,4 @@
-/// <reference path="utils.d.ts" />
+/// <reference path="../utils.d.ts" />
 
 interface Array<T> {
   filter(predicate: BooleanConstructor, thisArg?: any): TSReset.NonFalsy<T>[];

@@ -24,65 +24,85 @@
       "import": "./dist/recommended.mjs",
       "default": "./dist/recommended.js"
     },
-    "./recommended": {
-      "types": "./dist/recommended.d.ts",
-      "import": "./dist/recommended.mjs",
-      "default": "./dist/recommended.js"
+    "./array": {
+      "types": "./dist/array/index.d.ts",
+      "import": "./dist/array/index.mjs",
+      "default": "./dist/array/index.js"
     },
-    "./filter-boolean": {
-      "types": "./dist/filter-boolean.d.ts",
-      "import": "./dist/filter-boolean.mjs",
-      "default": "./dist/filter-boolean.js"
+    "./array/filter-boolean": {
+      "types": "./dist/array/filter-boolean.d.ts",
+      "import": "./dist/array/filter-boolean.mjs",
+      "default": "./dist/array/filter-boolean.js"
     },
-    "./is-array": {
-      "types": "./dist/is-array.d.ts",
-      "import": "./dist/is-array.mjs",
-      "default": "./dist/is-array.js"
+    "./array/includes": {
+      "types": "./dist/array/includes.d.ts",
+      "import": "./dist/array/includes.mjs",
+      "default": "./dist/array/includes.js"
     },
-    "./json-parse": {
-      "types": "./dist/json-parse.d.ts",
-      "import": "./dist/json-parse.mjs",
-      "default": "./dist/json-parse.js"
+    "./array/index-of": {
+      "types": "./dist/array/index-of.d.ts",
+      "import": "./dist/array/index-of.mjs",
+      "default": "./dist/array/index-of.js"
     },
-    "./fetch": {
-      "types": "./dist/fetch.d.ts",
-      "import": "./dist/fetch.mjs",
-      "default": "./dist/fetch.js"
-    },
-    "./array-includes": {
-      "types": "./dist/array-includes.d.ts",
-      "import": "./dist/array-includes.mjs",
-      "default": "./dist/array-includes.js"
-    },
-    "./set-has": {
-      "types": "./dist/set-has.d.ts",
-      "import": "./dist/set-has.mjs",
-      "default": "./dist/set-has.js"
-    },
-    "./map-has": {
-      "types": "./dist/map-has.d.ts",
-      "import": "./dist/map-has.mjs",
-      "default": "./dist/map-has.js"
-    },
-    "./utils": {
-      "types": "./dist/utils.d.ts",
-      "import": "./dist/utils.mjs",
-      "default": "./dist/utils.js"
-    },
-    "./array-index-of": {
-      "types": "./dist/array-index-of.d.ts",
-      "import": "./dist/array-index-of.mjs",
-      "default": "./dist/array-index-of.js"
+    "./array/is-array": {
+      "types": "./dist/array/is-array.d.ts",
+      "import": "./dist/array/is-array.mjs",
+      "default": "./dist/array/is-array.js"
     },
     "./dom": {
       "types": "./dist/dom.d.ts",
       "import": "./dist/dom.mjs",
       "default": "./dist/dom.js"
     },
+    "./fetch": {
+      "types": "./dist/fetch.d.ts",
+      "import": "./dist/fetch.mjs",
+      "default": "./dist/fetch.js"
+    },
+    "./json": {
+      "types": "./dist/json/index.d.ts",
+      "import": "./dist/json/index.mjs",
+      "default": "./dist/json/index.js"
+    },
+    "./json/parse": {
+      "types": "./dist/json/parse.d.ts",
+      "import": "./dist/json/parse.mjs",
+      "default": "./dist/json/parse.js"
+    },
+    "./map": {
+      "types": "./dist/map/index.d.ts",
+      "import": "./dist/map/index.mjs",
+      "default": "./dist/map/index.js"
+    },
+    "./map/has": {
+      "types": "./dist/map/has.d.ts",
+      "import": "./dist/map/has.mjs",
+      "default": "./dist/map/has.js"
+    },
+    "./recommended": {
+      "types": "./dist/recommended.d.ts",
+      "import": "./dist/recommended.mjs",
+      "default": "./dist/recommended.js"
+    },
+    "./set": {
+      "types": "./dist/set/index.d.ts",
+      "import": "./dist/set/index.mjs",
+      "default": "./dist/set/index.js"
+    },
+    "./set/has": {
+      "types": "./dist/set/has.d.ts",
+      "import": "./dist/set/has.mjs",
+      "default": "./dist/set/has.js"
+    },
     "./storage": {
       "types": "./dist/storage.d.ts",
       "import": "./dist/storage.mjs",
       "default": "./dist/storage.js"
+    },
+    "./utils": {
+      "types": "./dist/utils.d.ts",
+      "import": "./dist/utils.mjs",
+      "default": "./dist/utils.js"
     }
   },
   "keywords": [],
@@ -104,5 +124,6 @@
     "singleQuote": false,
     "tabWidth": 2,
     "useTabs": false
-  }
+  },
+  "packageManager": "pnpm@7.33.6"
 }
