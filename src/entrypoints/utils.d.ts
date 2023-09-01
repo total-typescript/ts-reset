@@ -14,4 +14,16 @@ declare namespace TSReset {
     : T extends symbol
     ? symbol
     : T;
+
+  export type UnionToIntersection<U> = (
+    U extends any ? (k: U) => void : never
+  ) extends (k: infer I) => void
+    ? I
+    : never;
+
+  type IsUnion<T> = [T] extends [UnionToIntersection<T>] ? false : true;
+
+  type IsStrictLiteral<T> = WidenLiteral<UnionToIntersection<T>> extends T
+    ? false
+    : true;
 }
