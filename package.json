@@ -64,6 +64,11 @@
       "import": "./dist/map-has.mjs",
       "default": "./dist/map-has.js"
     },
+    "./string-case": {
+      "types": "./dist/string-case.d.ts",
+      "import": "./dist/string-case.mjs",
+      "default": "./dist/string-case.js"
+    },
     "./utils": {
       "types": "./dist/utils.d.ts",
       "import": "./dist/utils.mjs",
