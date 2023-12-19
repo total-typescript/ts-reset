@@ -83,6 +83,11 @@
       "types": "./dist/storage.d.ts",
       "import": "./dist/storage.mjs",
       "default": "./dist/storage.js"
+    },
+    "./every-boolean": {
+      "types": "./dist/every-boolean.d.ts",
+      "import": "./dist/every-boolean.mjs",
+      "default": "./dist/every-boolean.js"
     }
   },
   "keywords": [],
