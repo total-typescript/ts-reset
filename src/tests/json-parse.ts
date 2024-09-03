@@ -12,3 +12,16 @@ doNotExecute(() => {
   // @ts-expect-error
   const result = JSON.parse<string>("{}");
 });
+
+doNotExecute(() => {
+  const result = JSON.parse(null);
+
+  type tests = [Expect<Equal<typeof result, null>>];
+});
+
+doNotExecute(() => {
+  const func = (): string | null => null;
+  const result = JSON.parse(func());
+
+  type tests = [Expect<Equal<typeof result, unknown>>];
+});
