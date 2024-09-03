@@ -47,6 +47,11 @@
       "import": "./dist/json-parse.mjs",
       "default": "./dist/json-parse.js"
     },
+    "./json-stringify": {
+      "types": "./dist/json-stringify.d.ts",
+      "import": "./dist/json-stringify.mjs",
+      "default": "./dist/json-stringify.js"
+    },
     "./fetch": {
       "types": "./dist/fetch.d.ts",
       "import": "./dist/fetch.mjs",
